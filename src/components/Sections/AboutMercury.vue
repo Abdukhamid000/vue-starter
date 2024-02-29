@@ -1,0 +1,47 @@
+<template>
+  <section class="mt-36 max-md:mt-10">
+    <h2 class="header-xl text-center">
+      <span class="text-main"> Mercury </span> — это ...
+    </h2>
+    <Swiper
+      :space-between="24"
+      :pagination="{ clickable: true }"
+      :slides-per-view="4"
+      :breakpoints="breakpoints"
+      initial-slide="1"
+      centered-slides
+    >
+      <SwiperSlide class="mt-16 max-lg:mt-5" v-for="n of 4" :key="n">
+        <AboutCard class="max-w-[437px] w-full" />
+      </SwiperSlide>
+    </Swiper>
+  </section>
+</template>
+
+<script setup lang="ts">
+// Import Swiper styles
+import 'swiper/css'
+
+import { Swiper, SwiperSlide } from 'swiper/vue'
+
+import AboutCard from '@/components/Cards/AboutCard.vue'
+
+const breakpoints = {
+  0: {
+    slidesPerView: 1,
+    spaceBetween: 5,
+  },
+  520: {
+    slidesPerView: 2,
+    spaceBetween: 5,
+  },
+  720: {
+    slidesPerView: 3,
+    spaceBetween: 10,
+  },
+  1280: {
+    slidesPerView: 4,
+    spaceBetween: 24,
+  },
+}
+</script>

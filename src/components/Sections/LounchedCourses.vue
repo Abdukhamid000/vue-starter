@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-36">
+  <section class="mt-36 max-md:mt-10">
     <div class="container">
       <h2 class="header-xl text-center max-w-[714px] w-full mx-auto">
         100+ курсов в Узбекистане запущено через
@@ -10,5 +10,3 @@
 </template>
 
 <script setup lang="ts"></script>
-
-<style scoped></style>

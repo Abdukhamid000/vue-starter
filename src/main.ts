@@ -1,5 +1,6 @@
 import './style.css'
 
+import Lenis from '@studio-freight/lenis'
 import { createApp } from 'vue'
 
 import { registerPlugins } from '@/plugins'

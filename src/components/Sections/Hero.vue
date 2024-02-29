@@ -13,7 +13,7 @@
           <span class="text-main">онлайн-школу</span> за 1 день
         </h2>
         <p
-          class="mt-8 text-base max-md:text-center max-lg:text-sm max-lg:mt-2 max-xl:mt-4 leading-[150%] text-left text-green"
+          class="mt-8 text-base max-md:text-center max-lg:text-sm max-lg:mt-2 max-xl:mt-4 leading-[150%] text-left text-green-100"
         >
           Создавайте курсы любой сложности, собирайте базы студентов, принимайте
           оплаты и управляйте всеми процессами

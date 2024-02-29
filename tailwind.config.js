@@ -13,7 +13,10 @@ export default {
     },
     colors: {
       main: 'rgb(46, 5, 255)',
-      green: 'rgb(87, 87, 87)',
+      green: {
+        100: 'rgb(87, 87, 87)',
+        200: 'rgb(237, 237, 237)',
+      },
       blue: {
         200: 'rgb(15, 15, 15)',
       },

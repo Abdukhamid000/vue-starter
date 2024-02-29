@@ -68,12 +68,12 @@
     </div>
 
     <h5
-      class="text-black-200 text-2xl leading-[130%] font-medium max-xl:text-xl max-w-[195px] w-full"
+      class="text-black-200 text-2xl !leading-[130%] font-medium max-xl:text-xl max-w-[195px] w-full"
     >
       Высокая скорость стабильность
     </h5>
     <p
-      class="mt-6 text-black-200 text-base leading-[150%] text-left max-xl:mt-3 max-xl:text-sm"
+      class="mt-6 text-black-200 text-base !leading-[150%] text-left max-xl:mt-3 max-xl:text-sm"
     >
       Выбирайте валюту, платежные сервисы, кошельки по всему миру. Примем оплату
       даже зайчиками

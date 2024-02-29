@@ -4,7 +4,7 @@
   >
     <div class="container justify-between flex items-center max-md:flex-col">
       <h2
-        class="text-green-200 leading-[130%] font-semibold text-[40px] max-md:text-center max-md:text-2xl max-lg:text-3xl max-w-[820px] w-full"
+        class="text-green-200 !leading-[130%] font-semibold text-[40px] max-md:text-center max-md:text-2xl max-lg:text-3xl max-w-[820px] w-full"
       >
         Вы хотите запросить демо-версию или просто задать вопрос? Напишите нам
       </h2>

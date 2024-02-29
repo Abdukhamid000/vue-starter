@@ -8,7 +8,7 @@
       :pagination="{ clickable: true }"
       :slides-per-view="4"
       :breakpoints="breakpoints"
-      initial-slide="1"
+      :initial-slide="1"
       centered-slides
     >
       <SwiperSlide class="mt-16 max-lg:mt-5" v-for="n of 4" :key="n">

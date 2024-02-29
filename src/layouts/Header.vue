@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <div
-      class="bg-red-300 container w-full flex items-center justify-between py-4"
+      class="container max-sm:hidden w-full flex items-center justify-between py-4"
     >
       <div class="flex items-center gap-6">
         <div class="flex items-center gap-4">
@@ -100,6 +100,31 @@
         <img src="/public/mercury.webp" class="w-[189px] h-[56px]" alt="logo" />
       </RouterLink>
 
+      <button
+        @click="mobile = !mobile"
+        data-collapse-toggle="navbar-default"
+        type="button"
+        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        aria-controls="navbar-default"
+        aria-expanded="false"
+      >
+        <span class="sr-only">Open main menu</span>
+        <svg
+          class="w-5 h-5"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 17 14"
+        >
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M1 1h15M1 7h15M1 13h15"
+          />
+        </svg>
+      </button>
       <ul class="flex gap-12 items-center max-lg:hidden">
         <li v-for="item of 4" :key="item">
           <RouterLink
@@ -113,12 +138,60 @@
           <Button class="py-4 px-8">Зарегистрироваться</Button>
         </li>
       </ul>
+
+      <div
+        class="absolute top-0 bg-white h-screen w-full left-0 transform -translate-x-full transition-300"
+        :class="{ 'translate-x-0': mobile }"
+      >
+        <ul class="flex flex-col gap-12 p-5 items-center">
+          <li v-for="item of 4" :key="item">
+            <RouterLink
+              to="#"
+              class="text-blue-200 !leading-[23px] tracking-normal text-2xl hover:text-main transition-300"
+            >
+              Тарифы
+            </RouterLink>
+          </li>
+          <li>
+            <Button class="py-4 px-8">Зарегистрироваться</Button>
+          </li>
+        </ul>
+
+        <button class="block absolute right-4 top-4" @click="mobile = false">
+          <svg
+            class="w-7 h-7"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <line
+              x1="4"
+              y1="4"
+              x2="20"
+              y2="20"
+              stroke="black"
+              stroke-width="2"
+            />
+            <line
+              x1="20"
+              y1="4"
+              x2="4"
+              y2="20"
+              stroke="black"
+              stroke-width="2"
+            />
+          </svg>
+        </button>
+      </div>
     </div>
   </header>
 </template>
 
 <script setup lang="ts">
+import { ref, watch } from 'vue'
+
 import Button from '@/components/Button.vue'
+
+const mobile = ref(false)
 </script>
 
 <style scoped>

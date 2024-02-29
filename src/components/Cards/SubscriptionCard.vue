@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-green-300 rounded-3xl px-8 pt-12 pb-16"
+    class="bg-green-300 rounded-3xl px-8 pt-12 pb-16 max-md:pb-10 max-md:px-4"
     :class="{ 'border-[1.5px] border-main': popular }"
   >
     <div class="max-w-[373px] w-full flex flex-col items-center">
@@ -9,7 +9,7 @@
         Подходит, если вам нужно постоянно продавать одинаковый продукт
       </p>
 
-      <div class="flex flex-col items-center mt-12 gap-[26px]">
+      <div class="flex flex-col items-center mt-12 max-md:mt-5 gap-[26px]">
         <p class="text-black font-semibold text-[32px] !leading-[150%]">
           <span class="!font-normal"> от </span>
           $300
@@ -26,7 +26,7 @@
         </ul>
       </div>
 
-      <Button class="px-8 py-4 max-w-[240px] w-full mt-[112px]"
+      <Button class="px-8 py-4 max-w-[240px] w-full max-md:mt-10 mt-[112px]"
         >Заказать</Button
       >
     </div>

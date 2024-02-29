@@ -1,14 +1,7 @@
 <template>
-  <div>
-    <h1>ABOUT PAGE</h1>
-    <button @click="store.doubleIncrement()">
-      Double increment {{ store.getCount }}
-    </button>
-  </div>
+  <div></div>
 </template>
 
-<script lang="ts" setup>
-import { useMainStore } from "@/store"
+<script setup></script>
 
-const store = useMainStore()
-</script>
+<style lang="scss" scoped></style>

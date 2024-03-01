@@ -1,7 +1,7 @@
 <template>
   <section class="mt-16">
     <div
-      class="container bg-style w-full flex items-center justify-between max-md:flex-col-reverse"
+      class="container bg-style max-sm:rounded-none rounded-[40px] w-full flex items-center justify-between max-md:flex-col-reverse"
     >
       <div class="pl-[72px] max-md:pl-0 max-md:pb-10">
         <h1
@@ -36,7 +36,6 @@ import Button from '../Button.vue'
 
 <style scoped>
 .bg-style {
-  border-radius: 40px;
   background: linear-gradient(
     135deg,
     rgb(135, 112, 255) 0%,

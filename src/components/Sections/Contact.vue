@@ -46,9 +46,11 @@
                 />
               </g>
             </svg>
-            <span
+            <a
+              href="tel:998 90 540 70 50"
+              target="_blank"
               class="text-black-200 text-base !leading-[23px] max-lg:!text-sm"
-              >998 90 540 70 50</span
+              >998 90 540 70 50</a
             >
           </div>
           <div class="flex items-center gap-4">
@@ -92,9 +94,11 @@
               </g>
             </svg>
 
-            <span
+            <a
+              href="mailto:help@mercuryedu.uz"
+              target="_blank"
               class="text-black-200 text-base !leading-[23px] max-md:text-sm"
-              >help@mercuryedu.uz</span
+              >help@mercuryedu.uz</a
             >
           </div>
         </div>

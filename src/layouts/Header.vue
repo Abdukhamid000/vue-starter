@@ -4,7 +4,7 @@
       class="container max-sm:hidden w-full flex items-center justify-between py-4"
     >
       <div class="flex items-center gap-6">
-        <div class="flex items-center gap-4">
+        <div class="flex items-center gap-4 group">
           <svg
             width="24.000000"
             height="24.000000"
@@ -36,11 +36,14 @@
               />
             </g>
           </svg>
-          <span class="text-black-200 text-base !leading-[23px] max-lg:!text-sm"
-            >998 90 540 70 50</span
+          <a
+            href="tel:998 90 540 70 50"
+            target="_blank"
+            class="text-black-200 text-base !leading-[23px] max-lg:!text-sm group-hover:text-main"
+            >998 90 540 70 50</a
           >
         </div>
-        <div class="flex items-center gap-4">
+        <div class="flex items-center gap-4 group">
           <svg
             width="24.000000"
             height="24.000000"
@@ -81,8 +84,11 @@
             </g>
           </svg>
 
-          <span class="text-black-200 text-base !leading-[23px] max-md:text-sm"
-            >help@mercuryedu.uz</span
+          <a
+            href="mailto:help@mercuryedu.uz"
+            target="_blank"
+            class="text-black-200 transition-300 group-hover:text-main text-base !leading-[23px] max-md:text-sm"
+            >help@mercuryedu.uz</a
           >
         </div>
       </div>

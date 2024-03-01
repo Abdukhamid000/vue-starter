@@ -12,7 +12,11 @@
       :initial-slide="1"
       centered-slides
     >
-      <SwiperSlide class="max-lg:mt-5 min-w-[437px]" v-for="n of 4" :key="n">
+      <SwiperSlide
+        class="max-lg:mt-5 min-w-[437px] max-sm:px-4"
+        v-for="n of 4"
+        :key="n"
+      >
         <AboutCard />
       </SwiperSlide>
     </Swiper>

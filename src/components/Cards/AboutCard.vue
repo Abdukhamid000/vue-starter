@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="p-8 pt-14 max-xl:p-5 max-xl:pt-10 min-h-[278px] cursor-pointer card"
-  >
+  <div class="p-8 pt-14 max-xl:p-5 max-xl:pt-10 cursor-pointer card">
     <div>
       <div
         class="p-3 bg-main opacity-10 w-14 h-14 max-xl:w-10 max-xl:h-10 rounded-full absolute right-4 top-4"

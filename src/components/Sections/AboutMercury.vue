@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-36 max-md:mt-10">
+  <section class="mt-36 max-md:mt-10" id="about">
     <h2 class="header-xl text-center">
       <span class="text-main"> Mercury </span> — это ...
     </h2>

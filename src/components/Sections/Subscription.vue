@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-36 max-md:mt-10">
+  <section class="mt-36 max-md:mt-10" id="subscription">
     <div class="container">
       <h2 class="header-xl !leading-[58px] text-4xl text-center">
         Выберите <span class="text-main">тариф</span>

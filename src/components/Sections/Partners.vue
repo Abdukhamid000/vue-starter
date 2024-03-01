@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-36 max-md:mt-10">
+  <section class="mt-36 max-md:mt-10" id="partners">
     <div class="container">
       <h2 class="header-xl text-center !leading-[130%]">
         Мы сотрудничаем с ведущими <span class="text-main">компаниями</span>
@@ -33,5 +33,3 @@
 </template>
 
 <script setup lang="ts"></script>
-
-<style scoped></style>

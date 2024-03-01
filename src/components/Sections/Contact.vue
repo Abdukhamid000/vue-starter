@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-36 max-md:mt-10 max-md:pt-0 pt-6 bg-img">
+  <section class="mt-36 max-md:mt-10 max-md:pt-0 pt-6 bg-img" id="contact">
     <div
       class="container flex justify-center max-lg:gap-4 max-md:flex-col max-md:items-center gap-[102px]"
     >

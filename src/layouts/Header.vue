@@ -86,17 +86,19 @@
           >
         </div>
       </div>
-      <button
-        type="button"
-        class="text-base font-medium !leading-[23px] text-main tracking-normal"
-      >
-        Студентам
-      </button>
+      <RouterLink :to="{ name: 'Student' }">
+        <button
+          type="button"
+          class="text-base font-medium !leading-[23px] text-main tracking-normal"
+        >
+          Студентам
+        </button>
+      </RouterLink>
     </div>
     <div class="bg-main opacity-40 w-full h-[1px]"></div>
 
     <div class="container py-4 flex justify-between items-center">
-      <RouterLink to="#">
+      <RouterLink to="/">
         <img src="/public/mercury.webp" class="w-[189px] h-[56px]" alt="logo" />
       </RouterLink>
 
@@ -126,13 +128,13 @@
         </svg>
       </button>
       <ul class="flex gap-12 items-center max-lg:hidden">
-        <li v-for="item of 4" :key="item">
-          <RouterLink
-            to="#"
+        <li v-for="(item, i) of navLinks" :key="i">
+          <a
+            :href="item.link"
             class="text-blue-200 leading-[23px] tracking-normal text-base hover:text-main transition-300"
           >
-            Тарифы
-          </RouterLink>
+            {{ item.text }}
+          </a>
         </li>
         <li>
           <Button class="py-4 px-8">Зарегистрироваться</Button>
@@ -140,17 +142,17 @@
       </ul>
 
       <div
-        class="absolute top-0 bg-white h-screen w-full left-0 transform -translate-x-full transition-300"
+        class="fixed top-0 bg-white h-screen z-30 w-full left-0 transform -translate-x-full transition-300"
         :class="{ 'translate-x-0': mobile }"
       >
         <ul class="flex flex-col gap-12 p-5 items-center">
-          <li v-for="item of 4" :key="item">
-            <RouterLink
-              to="#"
+          <li @click="mobile = false" v-for="item of navLinks" :key="item.link">
+            <a
+              :href="item.link"
               class="text-blue-200 !leading-[23px] tracking-normal text-2xl hover:text-main transition-300"
             >
-              Тарифы
-            </RouterLink>
+              {{ item.text }}
+            </a>
           </li>
           <li>
             <Button class="py-4 px-8">Зарегистрироваться</Button>
@@ -187,11 +189,30 @@
 </template>
 
 <script setup lang="ts">
-import { ref, watch } from 'vue'
+import { ref } from 'vue'
 
 import Button from '@/components/Button.vue'
 
 const mobile = ref(false)
+
+const navLinks = [
+  {
+    link: '#about',
+    text: 'О нас',
+  },
+  {
+    link: '#subscription',
+    text: 'Тарифы',
+  },
+  {
+    link: '#partners',
+    text: 'Партнеры',
+  },
+  {
+    link: '#contact',
+    text: 'Контакты',
+  },
+]
 </script>
 
 <style scoped>

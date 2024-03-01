@@ -1,5 +1,7 @@
 <template>
-  <div class="card p-8 pt-14 max-xl:p-5 max-xl:pt-10 cursor-pointer">
+  <div
+    class="p-8 pt-14 max-xl:p-5 max-xl:pt-10 min-h-[278px] cursor-pointer card"
+  >
     <div>
       <div
         class="p-3 bg-main opacity-10 w-14 h-14 max-xl:w-10 max-xl:h-10 rounded-full absolute right-4 top-4"
@@ -75,8 +77,9 @@
     <p
       class="mt-6 text-black-200 text-base !leading-[150%] text-left max-xl:mt-3 max-xl:text-sm"
     >
-      Выбирайте валюту, платежные сервисы, кошельки по всему миру. Примем оплату
-      даже зайчиками
+      Мы арендуем мощные сервера по всему СНГ <br />
+      для того, чтобы ни один клиент не столкнулсяс подтормаживанием при
+      просмотре ваших уроков
     </p>
   </div>
 </template>
@@ -88,6 +91,6 @@
   border: 1px solid rgba(46, 5, 255, 0.2);
   border-radius: 24px;
   backdrop-filter: blur(161px);
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.1);
 }
 </style>

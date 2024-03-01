@@ -4,6 +4,7 @@
       <span class="text-main"> Mercury </span> — это ...
     </h2>
     <Swiper
+      class="mt-16"
       :space-between="24"
       :pagination="{ clickable: true }"
       :slides-per-view="4"
@@ -11,8 +12,8 @@
       :initial-slide="1"
       centered-slides
     >
-      <SwiperSlide class="mt-16 max-lg:mt-5" v-for="n of 4" :key="n">
-        <AboutCard class="max-w-[437px] w-full" />
+      <SwiperSlide class="max-lg:mt-5 min-w-[437px]" v-for="n of 4" :key="n">
+        <AboutCard />
       </SwiperSlide>
     </Swiper>
   </section>

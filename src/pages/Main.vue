@@ -4,6 +4,7 @@
     <AboutMercury />
     <LounchedCourses />
     <TestApp />
+    <Steps />
     <Subscription />
     <Partners />
     <Testamonial />
@@ -16,6 +17,7 @@
 import AboutMercury from '@/components/Sections/AboutMercury.vue'
 import Contact from '@/components/Sections/Contact.vue'
 import Faq from '@/components/Sections/Faq.vue'
+import Steps from '@/components/Sections/Steps.vue'
 import Hero from '@/components/Sections/Hero.vue'
 import LounchedCourses from '@/components/Sections/LounchedCourses.vue'
 import Partners from '@/components/Sections/Partners.vue'

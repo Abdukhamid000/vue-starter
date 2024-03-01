@@ -17,7 +17,7 @@
       Курс по трейдингу от трейдеров мирового уровня
     </h4>
 
-    <div class="mt-8 flex items-center gap-4">
+    <div class="mt-8 flex items-center gap-4 max-sm:flex-wrap">
       <div class="flex items-center gap-2">
         <p class="text-sm">Трейдинг</p>
         <div>|</div>

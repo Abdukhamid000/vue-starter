@@ -28,6 +28,10 @@
       >
         <StudentCourseCardVue v-for="n of 3" :key="n" />
       </div>
+      <Button
+        class="max-w-[240px] w-full max-md:mt-10 max-md:py-3 mt-16 py-4 px-8 mx-auto block"
+        >Все курсы</Button
+      >
     </div>
   </section>
 </template>
@@ -35,6 +39,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
+import Button from '../Button.vue'
 import StudentCourseCardVue from '../Cards/StudentCourseCard.vue'
 
 const tabs = [

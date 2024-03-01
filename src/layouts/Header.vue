@@ -86,12 +86,16 @@
           >
         </div>
       </div>
-      <RouterLink :to="{ name: 'Student' }">
+      <RouterLink
+        :to="
+          $route.name === 'Student' ? { name: 'Index' } : { name: 'Student' }
+        "
+      >
         <button
           type="button"
           class="text-base font-medium !leading-[23px] text-main tracking-normal"
         >
-          Студентам
+          {{ $route.name === 'Student' ? 'Бизнес студентам' : 'Студентам' }}
         </button>
       </RouterLink>
     </div>

@@ -63,13 +63,13 @@
         >
           <div :class="{ 'ml-auto': n % 2 === 0 }">
             <h2
-              class="text-3xl text-[#575757] opacity-30 !leading-[46px] font-medium"
+              class="text-3xl text-[#575757] max-md:text-center max-md:text-xl opacity-30 !leading-[46px] font-medium"
               :class="{ '!text-black !opacity-100': n === 1 }"
             >
               Вы связываетесь с нами
             </h2>
             <p
-              class="text-[#575757] opacity-30 text-base !leading-[150%] mt-2 max-w-[390px] w-full"
+              class="text-[#575757] opacity-30 text-base max-md:text-center !leading-[150%] mt-2 max-w-[390px] w-full"
               :class="{ '!text-green-100 !opacity-100': n === 1 }"
             >
               Расскажите о вашем продукте, предоставьте логотипы, баннеры,

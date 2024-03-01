@@ -154,6 +154,15 @@
               {{ item.text }}
             </a>
           </li>
+          <li @click="mobile = false">
+            <RouterLink
+              :to="{ name: 'Student' }"
+              class="text-blue-200 !leading-[23px] tracking-normal text-2xl hover:text-main transition-300"
+            >
+              Студентам
+            </RouterLink>
+          </li>
+
           <li>
             <Button class="py-4 px-8">Зарегистрироваться</Button>
           </li>

@@ -1,5 +1,5 @@
 <template>
-  <div class="p-8 pt-14 max-xl:p-5 max-xl:pt-10 cursor-pointer card">
+  <div class="card p-8 pt-14 max-xl:p-5 max-xl:pt-10 cursor-pointer">
     <div>
       <div
         class="p-3 bg-main opacity-10 w-14 h-14 max-xl:w-10 max-xl:h-10 rounded-full absolute right-4 top-4"
@@ -88,6 +88,6 @@
   border: 1px solid rgba(46, 5, 255, 0.2);
   border-radius: 24px;
   backdrop-filter: blur(161px);
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.2);
 }
 </style>

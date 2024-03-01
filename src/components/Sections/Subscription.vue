@@ -15,7 +15,7 @@
         class="flex gap-x-[25px] mt-6 items-center justify-center gap-6 max-lg:flex-wrap"
       >
         <SubscriptionCard />
-        <SubscriptionCard popular />
+        <SubscriptionCard popular class="flex-[1.5px]" />
         <SubscriptionCard />
       </div>
     </div>

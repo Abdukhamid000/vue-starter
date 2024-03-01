@@ -146,6 +146,41 @@
             {{ item.text }}
           </a>
         </li>
+        <li class="flex items-center">
+          <span class="text-base !leading-[23px]">Ру</span>
+          <svg
+            width="16.000000"
+            height="16.000000"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <desc>Created with Pixso.</desc>
+            <defs>
+              <clipPath id="clip12_1044">
+                <rect
+                  id="arrow-down-01-sharp"
+                  width="16.000000"
+                  height="16.000000"
+                  fill="white"
+                  fill-opacity="0"
+                />
+              </clipPath>
+            </defs>
+            <g clip-path="url(#clip12_1044)">
+              <path
+                id="Vector 6902"
+                d="M4 6L7.30005 9.30005L7.99219 9.79272L8.00781 9.79272L8.69995 9.30005L12 6"
+                stroke="#0F0F0F"
+                stroke-opacity="1.000000"
+                stroke-width="1.500000"
+                stroke-linejoin="round"
+                stroke-linecap="round"
+              />
+            </g>
+          </svg>
+        </li>
         <li>
           <Button class="py-4 px-8">Зарегистрироваться</Button>
         </li>

@@ -7,14 +7,14 @@
 
       <div class="text-center mt-16">
         <div
-          class="rounded-[100px] max-lg:rounded-2xl border border-main inline-block p-1"
+          class="rounded-[100px] max-lg:rounded-2xl border border-main max-w-[895px] w-full inline-block p-1"
         >
           <ul class="flex items-center justify-center max-lg:flex-wrap">
             <li
               @click="active = i"
               v-for="(item, i) of tabs"
               :key="item"
-              class="py-4 px-[26px] rounded-[100px] max-lg:w-full max-lg:rounded-2xl transition-300 text-main !leading-5 font-semibold text-sm cursor-pointer"
+              class="py-4 px-[26px] rounded-[100px] w-full max-lg:w-full max-lg:rounded-2xl transition-300 text-main !leading-5 font-semibold text-sm cursor-pointer"
               :class="{ 'bg-main text-white': active === i }"
             >
               {{ item }}

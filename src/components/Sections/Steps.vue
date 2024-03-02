@@ -69,7 +69,7 @@
               Вы связываетесь с нами
             </h2>
             <p
-              class="text-[#575757] opacity-30 text-base max-md:text-center !leading-[150%] mt-2 max-w-[390px] w-full"
+              class="text-[#575757] opacity-30 text-base max-md:text-center max-xl:max-w-[320px] !leading-[150%] mt-2 max-w-[390px] w-full"
               :class="{ '!text-green-100 !opacity-100': n === 1 }"
             >
               Расскажите о вашем продукте, предоставьте логотипы, баннеры,

@@ -5,9 +5,13 @@
         Мы сотрудничаем с ведущими <span class="text-main">компаниями</span>
       </h2>
       <div
-        class="mt-16 flex items-center gap-6 max-xl:flex-wrap justify-center"
+        class="mt-16 grid grid-cols-5 max-md:grid-cols-2 max-sm:grid-cols-1 max-lg:grid-cols-3 max-xl:grid-cols-4 items-center gap-6 max-xl:flex-wrap justify-center"
       >
-        <div v-for="n of 5" :key="n" class="px-[26px] py-[26px]">
+        <div
+          v-for="n of 5"
+          :key="n"
+          class="px-[26px] py-[26px] flex items-center justify-center"
+        >
           <svg
             width="200.000000"
             height="80.000000"

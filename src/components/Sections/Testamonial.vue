@@ -5,7 +5,7 @@
         Мнения клиентов <span class="text-main">о нас</span>
       </h2>
       <div
-        class="flex max-lg:mt-10 mt-[67px] justify-center gap-6 max-lg:flex-wrap"
+        class="grid grid-cols-3 max-xl:grid-cols-2 max-md:flex max-lg:mt-10 mt-[67px] justify-center gap-6 max-lg:flex-wrap"
       >
         <TestamonialCard
           class="max-w-[437px] w-full"

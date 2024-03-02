@@ -1,5 +1,5 @@
 <template>
-  <div class="card p-8 pb-[43px]">
+  <div class="card max-sm:p-4 p-8 pb-[43px]">
     <div class="flex justify-between items-center">
       <div class="flex gap-2 items-center w-full">
         <svg

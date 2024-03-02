@@ -27,7 +27,7 @@
       <div>
         <img
           class="h-[611px] max-xl:h-[450px] max-lg:h-[300px]"
-          src="/public/hero2.webp"
+          src="/public/hero.webp"
           alt=""
         />
       </div>

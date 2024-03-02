@@ -17,9 +17,32 @@
       Курс по трейдингу от трейдеров мирового уровня
     </h4>
 
-    <div class="mt-8 flex items-center gap-4 max-sm:flex-wrap">
+    <div class="mt-8 flex items-center gap-4 max-xl:flex-wrap">
       <div class="flex items-center gap-2">
-        <p class="text-sm">Трейдинг</p>
+        <p class="text-sm flex items-center gap-2">
+          <span
+            ><svg
+              width="4.000000"
+              height="4.000000"
+              viewBox="0 0 4 4"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <desc>Created with Pixso.</desc>
+              <defs />
+              <circle
+                id="Ellipse 1910"
+                cx="2.000000"
+                cy="2.000000"
+                r="2.000000"
+                fill="#575757"
+                fill-opacity="1.000000"
+              />
+            </svg>
+          </span>
+          Трейдинг
+        </p>
         <div>|</div>
       </div>
       <div class="flex items-center gap-6">
